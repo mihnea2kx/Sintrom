@@ -13,15 +13,10 @@
 }
 #home #popupDosage {
 	text-align: center;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	vertical-align: middle;
 	padding:25px 40px;
-}
-#home #popupDosage form .ui-btn.ui-corner-all.ui-shadow.ui-btn-b.ui-btn-icon-left.ui-icon-check {
-	width: 150px;
-	text-align: center;
-	vertical-align: middle;
 }
 #home div .ui-grid-a .ui-block-b a {
 	text-decoration: none;
@@ -32,8 +27,20 @@
 }
 #home #popupInr {
 	text-align: center;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	vertical-align: middle;
 	padding:25px 40px;
 	}
+#home div .footer {
+	height: 100px;
+}
+#home #myfooter {
+	height: 50px;
+}
+#inr #myfooter {
+	height: 50px;
+}
+#myfooter {
+	height: 50px;
+}
