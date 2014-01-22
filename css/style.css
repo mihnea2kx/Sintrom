@@ -28,9 +28,9 @@
 #home #popupInr {
 	text-align: center;
 	height: 200px;
-	width: 200px;
+	width: 250px;
 	vertical-align: middle;
-	padding:25px 40px;
+	padding:25px 20px;
 	}
 #home div .footer {
 	height: 100px;
@@ -43,4 +43,18 @@
 }
 #myfooter {
 	height: 50px;
+}
+#footnav {
+	height: 50px;
+}
+.inrval {
+	text-align:center;
+}
+.divcentered {
+	text-align: center;
+	width: 70%;
+	padding-left:15%;
+}
+#credits div .divcentered form {
+	text-align: center;
 }
