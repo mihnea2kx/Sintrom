@@ -14,7 +14,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script src="jquery-mobile/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="jquery-mobile/jquery.mobile-1.4.0.min.js" type="text/javascript"></script>
-<script src="parse-1.2.16.min.js" type="text/javascript"></script>
+<!--<script src="parse-1.2.16.min.js" type="text/javascript"></script>-->
 <script src="app.js" type="text/javascript"></script>
 </head>
 
@@ -77,10 +77,10 @@
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="flip"class="ui-btn-active ui-state-persist">Home</a></li>
-        <li><a href="#alarm" data-transition="flip">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip">INR</a></li>
-        <li><a href="#credits" data-transition="flip">Settings</a></li>
+        <li><a href="#home" data-transition="fade"class="ui-btn-active ui-state-persist">Home</a></li>
+        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade">INR</a></li>
+        <li><a href="#credits" data-transition="fade">Settings</a></li>
       </ul>
     	
     
@@ -92,14 +92,23 @@
   <div data-role="header" data-position="fixed">
     <h1>Set your alarm</h1>
   </div>
-  <div data-role="content">Content</div>
+  <div data-role="content">
+  	<div class="divcentered">
+        	<form >
+            	<label for="date">Time</label>
+				<input type="time" name="time" id="time" value="">
+            
+            	<button type="submit" class="ui-btn ui-corner-all ui-shadow" id="inrbtn">Set</button>
+        	</form>
+        </div>
+  </div>
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar" id="footnav">
       <ul class="ui-btn-active">
-        <li><a href="#home" data-transition="flip">Home</a></li>
-        <li><a href="#alarm" data-transition="flip"class="ui-btn-active ui-state-persist">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip">INR</a></li>
-        <li><a href="#credits" data-transition="flip">Settings</a></li>
+        <li><a href="#home" data-transition="fade">Home</a></li>
+        <li><a href="#alarm" data-transition="fade"class="ui-btn-active ui-state-persist">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade">INR</a></li>
+        <li><a href="#credits" data-transition="fade">Settings</a></li>
       </ul>
     	
     
@@ -117,10 +126,10 @@
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="flip">Home</a></li>
-        <li><a href="#alarm" data-transition="flip">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip"class="ui-btn-active ui-state-persist">INR</a></li>
-        <li><a href="#credits" data-transition="flip">Settings</a></li>
+        <li><a href="#home" data-transition="fade">Home</a></li>
+        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade"class="ui-btn-active ui-state-persist">INR</a></li>
+        <li><a href="#credits" data-transition="fade">Settings</a></li>
       </ul>
     	
     
@@ -148,10 +157,10 @@
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="flip">Home</a></li>
-        <li><a href="#alarm" data-transition="flip">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip">INR</a></li>
-        <li><a href="#credits" data-transition="flip"class="ui-btn-active ui-state-persist">Settings</a></li>
+        <li><a href="#home" data-transition="fade">Home</a></li>
+        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade">INR</a></li>
+        <li><a href="#credits" data-transition="fade"class="ui-btn-active ui-state-persist">Settings</a></li>
       </ul>
     	
     
@@ -167,10 +176,10 @@
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar">
       <ul>
-        <li><a href="#home" data-transition="flip">Home</a></li>
-        <li><a href="#alarm" data-transition="flip">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip">INR</a></li>
-        <li><a href="#credits" data-transition="flip">Settings</a></li>
+        <li><a href="#home" data-transition="fade">Home</a></li>
+        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade">INR</a></li>
+        <li><a href="#credits" data-transition="fade">Settings</a></li>
       </ul>
     	
     
@@ -187,10 +196,10 @@
   <div data-role="footer" data-position="fixed" id="myfooter">
     <div data-role="navbar">
       <ul>
-        <li><a href="#home" data-transition="flip">Home</a></li>
-        <li><a href="#alarm" data-transition="flip">Alarm</a></li>
-        <li><a href="#inr" data-transition="flip">INR</a></li>
-        <li><a href="#credits" data-transition="flip">Settings</a></li>
+        <li><a href="#home" data-transition="fade">Home</a></li>
+        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
+        <li><a href="#inr" data-transition="fade">INR</a></li>
+        <li><a href="#credits" data-transition="fade">Settings</a></li>
       </ul>
     	
     
@@ -199,12 +208,12 @@
 </div>
 
 </body>
-<script>
+<!--<script>
 Parse.initialize("HHQJolk1OOXzWAhpYCRf3EWj43hmMyx2An0YksZT", "wRN54zazcjWbdyGypux18vNt2gi9fudCJmAS30T6");
 var TestObject = Parse.Object.extend("TestObject");
 var testObject = new TestObject();
 testObject.save({foo: "bar"}).then(function(object) {
   alert("yay! it worked");
 });
-</script>
+</script> -->
 </html>
