@@ -1,8 +1,8 @@
 @import url("../../webfonts/doodle/stylesheet.css");
 
 @font-face {
-  font-family: 'Tagesschrift';
-  src: url(fonts/KBZipaDeeDooDah.ttf);
+  font-family: 'doodle';
+  src: url(fonts/KBZipaDeeDooDah.ttf)format('truetype');
 }
 #home div .ui-grid-a .ui-block-a {
 	text-align: center;
@@ -84,7 +84,6 @@ a {
 }
 #myfooter #footnav ul li a {
 	font-family: doodle;
-	font-size: 18px;
 	vertical-align: middle;
 }
 form label {
