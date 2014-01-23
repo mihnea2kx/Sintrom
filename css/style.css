@@ -1,3 +1,4 @@
+@import url("../../webfonts/doodle/stylesheet.css");
 #home div .ui-grid-a .ui-block-a {
 	text-align: center;
 	vertical-align: middle;
@@ -18,7 +19,7 @@
 	vertical-align: middle;
 	padding:25px 40px;
 }
-#home div .ui-grid-a .ui-block-b a {
+a {
 	text-decoration: none;
 }
 #home #popupDosage form div {
@@ -69,4 +70,36 @@
 #myfooter #footnav ul li a {
 	height: 50px;
 	vertical-align: middle;
+}h1 {
+	font-family: doodle;
+	font-size: 28px;
+}
+a {
+	font-family: doodle;
+}
+#myfooter #footnav ul li a {
+	font-family: doodle;
+	font-size: 18px;
+	vertical-align: middle;
+}
+form label {
+	font-family: doodle;
+}
+.ui-btn {
+	font-family: doodle;
+}
+form {
+	font-family: doodle;
+}
+#inr #inrhist {
+	font-family: doodle;
+}
+
+
+
+
+
+
+a p {
+	font-family: doodle;
 }
