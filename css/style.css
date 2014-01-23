@@ -1,4 +1,9 @@
 @import url("../../webfonts/doodle/stylesheet.css");
+
+@font-face {
+  font-family: 'Tagesschrift';
+  src: url(fonts/KBZipaDeeDooDah.ttf);
+}
 #home div .ui-grid-a .ui-block-a {
 	text-align: center;
 	vertical-align: middle;
