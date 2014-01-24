@@ -34,9 +34,9 @@ a {
 #home #popupInr {
 	text-align: center;
 	height: 200px;
-	width: 300px;
+	width: 250px;
 	vertical-align: middle;
-	padding:25px 20px;
+	padding:25px 10px;
 	}
 #home div .footer {
 	height: 100px;
@@ -98,12 +98,6 @@ form {
 #inr #inrhist {
 	font-family: doodle;
 }
-
-
-
-
-
-
 a p {
 	font-family: doodle;
 }

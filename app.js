@@ -1,18 +1,61 @@
 // JavaScript Document
 $(document).ready(function() {
-   if(localStorage['linrval'],localStorage['linrdate']){
-	   $('#inrhist').prepend('<div class="inrval">'+localStorage['linrdate']+ '  ----  ' +localStorage['linrval']+ '</div>');
-	   };
-   
-   $('#inrbtn').click(function(){
-	   var inrval=$('input[name=user]').val();
-	   var inrdate=$('input[name=dateinr]').val();
-	   localStorage.setItem('linrval',inrval);
-	   localStorage.setItem('linrdate',inrdate);
-	   $('#inrhist').prepend('<div class="inrval">'+inrdate+ '  ----  ' +inrval+ '</div>');
-	   });
 
-		
+            //localStorage.removeItem("users");
+
+            var userStr = localStorage.getItem('users');
+
+            if (userStr != null && userStr != undefined) {
+                var jsonObj = JSON.parse(userStr);
+
+                console.log("onload value", jsonObj);
+
+                $.each(jsonObj.items, function(i, item) {
+                    $('#inrhist').prepend('<div class="inrval">'+item.user +'--'+item.dateinr+'</div>');
+                 });
+            }
+
+            $('#inrbtn').click(function () {
+
+                var dataItems = { items: [] };
+
+                var inrval = $('input[name=user]').val();
+                var inrdate = $('input[name=dateinr]').val();
+
+                var item = { user: inrval, dateinr: inrdate };
+
+                var usersList = localStorage.getItem('users');
+
+                var jsonObj;
+
+                if (usersList == null) {
+                    dataItems.items.push(item);                  
+                    jsonObj = JSON.parse(JSON.stringify(dataItems));
+                }
+                else {
+                    jsonObj = JSON.parse(usersList);
+                    jsonObj.items.push(item);
+                }
+
+                jsonStr = JSON.stringify(jsonObj);
+
+                console.log(jsonStr);
+
+                localStorage.setItem("users", jsonStr);
+
+                $('#inrhist').prepend('<div class="inrval">' + inrdate + '--' + inrval + '</div>');
+
+            });
+
+    $('#remlast').click(function() {
+        var cont=confirm('Are you sure you want to delete the last entry?');
+    		if(cont){   }
+
+
+    		 else {    };
+           
+            	
+            });        
 		   
 	$('#dosagebtn').click(function(){
 	   

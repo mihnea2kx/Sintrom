@@ -20,8 +20,8 @@
 </head>
 
 <body>
-<div data-role="page" id="home">
-  <div data-position="fixed" data-role="header">
+<div data-role="page" id="home" data-theme="a">
+  <div data-position="fixed" data-role="header" data-id="boomheader">
     <h1>Sintrom</h1>
   </div>
   <div data-role="content">
@@ -75,13 +75,13 @@
     </form>
   </div>
   
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="fade"class="ui-btn-active ui-state-persist">Home</a></li>
-        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade">INR</a></li>
-        <li><a href="#credits" data-transition="fade">Settings</a></li>
+        <li><a href="#home" data-transition="none"class="ui-btn-active ui-state-persist">Home</a></li>
+        <li><a href="#alarm" data-transition="none">Alarm</a></li>
+        <li><a href="#inr" data-transition="none">INR</a></li>
+        <li><a href="#credits" data-transition="none">Settings</a></li>
       </ul>
     	
     
@@ -89,8 +89,8 @@
   </div>
 </div>
 
-<div data-role="page" id="alarm">
-  <div data-role="header" data-position="fixed">
+<div data-role="page" id="alarm" data-theme="a">
+  <div data-role="header" data-position="fixed" data-id="boomheader">
     <h1>Set your alarm</h1>
   </div>
   <div data-role="content">
@@ -103,13 +103,13 @@
         	</form>
         </div>
   </div>
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar" id="footnav">
       <ul class="ui-btn-active">
-        <li><a href="#home" data-transition="fade">Home</a></li>
-        <li><a href="#alarm" data-transition="fade"class="ui-btn-active ui-state-persist">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade">INR</a></li>
-        <li><a href="#credits" data-transition="fade">Settings</a></li>
+        <li><a href="#home" data-transition="none">Home</a></li>
+        <li><a href="#alarm" data-transition="none"class="ui-btn-active ui-state-persist">Alarm</a></li>
+        <li><a href="#inr" data-transition="none">INR</a></li>
+        <li><a href="#credits" data-transition="none">Settings</a></li>
       </ul>
     	
     
@@ -117,20 +117,20 @@
   </div>
 </div>
 
-<div data-role="page" id="inr">
-  <div data-role="header" data-position="fixed">
+<div data-role="page" id="inr" data-theme="a">
+  <div data-role="header" data-position="fixed" data-id="boomheader">
     <h1>INR History</h1>
   </div>
   <div data-role="content" id="inrhist">
   
   </div>
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="fade">Home</a></li>
-        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade"class="ui-btn-active ui-state-persist">INR</a></li>
-        <li><a href="#credits" data-transition="fade">Settings</a></li>
+        <li><a href="#home" data-transition="none">Home</a></li>
+        <li><a href="#alarm" data-transition="none">Alarm</a></li>
+        <li><a href="#inr" data-transition="none"class="ui-btn-active ui-state-persist">INR</a></li>
+        <li><a href="#credits" data-transition="none">Settings</a></li>
       </ul>
     	
     
@@ -138,8 +138,8 @@
   </div>
 </div>
 
-<div data-role="page" id="credits">
-  <div data-role="header" data-position="fixed">
+<div data-role="page" id="credits" data-theme="a">
+  <div data-role="header" data-position="fixed" data-id="boomheader">
     <h1>Settings</h1>
   </div>
   <div data-role="content">
@@ -155,13 +155,13 @@
         	</form>
         </div>
   </div>
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar" id="footnav">
       <ul>
-        <li><a href="#home" data-transition="fade">Home</a></li>
-        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade">INR</a></li>
-        <li><a href="#credits" data-transition="fade"class="ui-btn-active ui-state-persist">Settings</a></li>
+        <li><a href="#home" data-transition="none">Home</a></li>
+        <li><a href="#alarm" data-transition="none">Alarm</a></li>
+        <li><a href="#inr" data-transition="none">INR</a></li>
+        <li><a href="#credits" data-transition="none"class="ui-btn-active ui-state-persist">Settings</a></li>
       </ul>
     	
     
@@ -169,18 +169,18 @@
   </div>
 </div>
 
-<div data-role="page" id="dosage">
-  <div data-role="header" data-position="fixed">
+<div data-role="page" id="dosage" data-theme="a">
+  <div data-role="header" data-position="fixed" data-id="boomheader">
     <h1>Your Daily Dosage</h1>
   </div>
   <div data-role="content">Please select your daily dosage :</div>
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar">
       <ul>
-        <li><a href="#home" data-transition="fade">Home</a></li>
-        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade">INR</a></li>
-        <li><a href="#credits" data-transition="fade">Settings</a></li>
+        <li><a href="#home" data-transition="none">Home</a></li>
+        <li><a href="#alarm" data-transition="none">Alarm</a></li>
+        <li><a href="#inr" data-transition="none">INR</a></li>
+        <li><a href="#credits" data-transition="none">Settings</a></li>
       </ul>
     	
     
@@ -189,18 +189,18 @@
 </div>
 
 
-<div data-role="page" id="inputinr">
-  <div data-role="header" data-position="fixed">
+<div data-role="page" id="inputinr" data-theme="a">
+  <div data-role="header" data-position="fixed" data-id="boomheader">
     <h1>Credits</h1>
   </div>
   <div data-role="content">Content</div>
-  <div data-role="footer" data-position="fixed" id="myfooter">
+  <div data-role="footer" data-position="fixed" id="myfooter" data-id="boom">
     <div data-role="navbar">
       <ul>
-        <li><a href="#home" data-transition="fade">Home</a></li>
-        <li><a href="#alarm" data-transition="fade">Alarm</a></li>
-        <li><a href="#inr" data-transition="fade">INR</a></li>
-        <li><a href="#credits" data-transition="fade">Settings</a></li>
+        <li><a href="#home" data-transition="none">Home</a></li>
+        <li><a href="#alarm" data-transition="none">Alarm</a></li>
+        <li><a href="#inr" data-transition="none">INR</a></li>
+        <li><a href="#credits" data-transition="none">Settings</a></li>
       </ul>
     	
     
