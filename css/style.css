@@ -22,7 +22,7 @@
 	height: 200px;
 	width: 200px;
 	vertical-align: middle;
-	padding:25px 40px;
+	padding:25px 20px;
 }
 a {
 	text-decoration: none;
@@ -100,4 +100,10 @@ form {
 }
 a p {
 	font-family: doodle;
+}
+.fheader{
+	position: fixed;
+    z-index: 10;
+   
+    width: 100%;
 }
